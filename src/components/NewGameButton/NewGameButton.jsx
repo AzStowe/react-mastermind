@@ -1,9 +1,7 @@
 import React from 'react'
 
-function NewGameButton(props) {
-    return (
-        <div className='component'>NewGameButton</div>
-    )
-}
+const NewGameButton = props => (
+    <button className="btn btn-default">New Game</button>
+)
 
 export default NewGameButton

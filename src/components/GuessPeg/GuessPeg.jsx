@@ -1,9 +1,7 @@
 import React from 'react'
 
 function GuessPeg(props) {
-    return (
-        <div className='component'>GuessPeg</div>
-    )
+    return <div>{props.color}</div>
 }
 
 export default GuessPeg
